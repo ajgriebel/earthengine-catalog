@@ -132,7 +132,7 @@ local spdx = import 'spdx.libsonnet';
         vegetation taller than 5 m in height as a percentage per
         output grid cell
       |||,
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.double,
     },
     {
@@ -180,7 +180,7 @@ local spdx = import 'spdx.libsonnet';
     {
       name: 'modis_nonvegetated',
       description: 'Percent non-vegetated from MODIS MOD44B V6 data',
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.double,
     },
     {
@@ -188,13 +188,13 @@ local spdx = import 'spdx.libsonnet';
       description: |||
         Percent non-vegetated standard deviation from MODIS MOD44B V6 data
       |||,
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.double,
     },
     {
       name: 'modis_treecover',
       description: 'Percent tree cover from MODIS MOD44B V6 data',
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.double,
     },
     {
@@ -202,7 +202,7 @@ local spdx = import 'spdx.libsonnet';
       description: |||
         Percent tree cover standard deviation from MODIS MOD44B V6 data
       |||,
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.double,
     },
     {
@@ -282,7 +282,7 @@ local spdx = import 'spdx.libsonnet';
         The focal window size used to calculate urban_proportion. Values are 3
         (3x3 pixel window size) or 5 (5x5 pixel window size).
       |||,
-      'gee:units': 'Pixels',
+      'gee:units': 'pixels',
       type:: ee_const.var_type.int,
     },
     {

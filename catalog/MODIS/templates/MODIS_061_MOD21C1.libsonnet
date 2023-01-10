@@ -1,5 +1,4 @@
 {
-  
   bands: [
     {
       name: 'Count_Day',
@@ -334,7 +333,7 @@
     {
       name: 'Percent_land_in_grid',
       description: 'Percent of Land Detections in Grid Cell',
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
     },
   ],
   summaries: {

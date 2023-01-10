@@ -90,7 +90,7 @@ local self_ee_catalog_url = ee_const.ee_catalog_url + basename;
           Standard error as a fraction of the estimated mean AGBD (PE).
           If >100%, the cell values are truncated to 100.
         |||,
-        'gee:units': 'Percent'
+        'gee:units': 'percent',
       },
       {
         name: 'NC',

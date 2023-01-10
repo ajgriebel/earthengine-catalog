@@ -10,7 +10,7 @@
       {
         name: 'Fpar_500m',
         description: 'Fraction of Photosynthetically Active Radiation',
-        'gee:units': 'Percent',
+        'gee:units': 'percent',
         'gee:scale': 0.01,
       },
       {
@@ -30,7 +30,7 @@
       {
         name: 'FparStdDev_500m',
         description: 'Standard deviation of FPAR',
-        'gee:units': 'Percent',
+        'gee:units': 'percent',
         'gee:scale': 0.01,
       },
       {

@@ -32,7 +32,7 @@ local ee_const = import 'earthengine_const.libsonnet';
     {
       name: 'cover',
       description: 'Total canopy cover',
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.int,
     },
     gedi_l2a.regular_bands[1],
@@ -131,7 +131,7 @@ local ee_const = import 'earthengine_const.libsonnet';
     {
       name: 'cover_z' + step,
       description: 'Cumulative canopy cover vertical profile at ' + step + '%',
-      'gee:units': 'Percent',
+      'gee:units': 'percent',
       type:: ee_const.var_type.int,
     }
     for step in std.range(0, 30)
